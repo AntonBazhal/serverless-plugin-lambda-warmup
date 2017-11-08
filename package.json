@@ -1,0 +1,49 @@
+{
+  "name": "serverless-plugin-lambda-warmup",
+  "version": "1.0.0",
+  "description": "A Serverless plugin that creates CloudWatch rule to keep your lambdas warm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonBazhal/serverless-plugin-lambda-warmup.git"
+  },
+  "keywords": [
+    "aws",
+    "aws lambda",
+    "function",
+    "lambda",
+    "serverless",
+    "warm",
+    "cold",
+    "start",
+    "cloudwatch",
+    "rule"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "posttest": "npm run lint"
+  },
+  "author": {
+    "name": "Anton Bazhal",
+    "email": "am.bazhal@gmail.com",
+    "url": "https://github.com/AntonBazhal"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-subset": "^1.6.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "sinon": "^4.1.1"
+  },
+  "dependencies": {
+    "lodash.chunk": "^4.2.0",
+    "lodash.set": "^4.3.2",
+    "semver": "^5.4.1"
+  }
+}
