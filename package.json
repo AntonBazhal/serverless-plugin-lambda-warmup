@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-lambda-warmup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Serverless plugin that creates CloudWatch rule to keep your lambdas warm",
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-mocha": "^4.11.0",
     "mocha": "^4.0.1",
-    "nyc": "^11.3.0",
+    "nyc": "^11.4.1",
     "sinon": "^4.1.1"
   },
   "dependencies": {
