@@ -82,7 +82,7 @@ class LambdaWarmup {
       set(service, `resources.Resources[${ruleId}]`, ruleResource);
 
       targetsChunk.forEach(target => {
-        const permissionId = `${ruleId}${target.Id}Permission`;
+        const permissionId = `${target.Id}${ruleId}Permission`;
         const permissionResource = {
           Type: 'AWS::Lambda::Permission',
           Properties: {
