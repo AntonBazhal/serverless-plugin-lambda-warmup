@@ -128,7 +128,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 ]
               }
             },
-            LambdaWarmupEventsRule1Function1LambdaFunctionSchedulePermission: {
+            Function1LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Type: 'AWS::Lambda::Permission',
               Properties: {
                 Action: 'lambda:InvokeFunction',
@@ -141,7 +141,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 }
               }
             },
-            LambdaWarmupEventsRule1Function2LambdaFunctionSchedulePermission: {
+            Function2LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Type: 'AWS::Lambda::Permission',
               Properties: {
                 Action: 'lambda:InvokeFunction',
@@ -190,7 +190,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 ]
               }
             },
-            LambdaWarmupEventsRule1Function1LambdaFunctionSchedulePermission: {
+            Function1LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Type: 'AWS::Lambda::Permission',
               Properties: {
                 Action: 'lambda:InvokeFunction',
@@ -337,7 +337,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 ]
               }
             },
-            LambdaWarmupEventsRule1Function1LambdaFunctionSchedulePermission: {
+            Function1LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Properties: {
                 FunctionName: {
                   'Fn::GetAtt': ['Function1LambdaFunction', 'Arn']
@@ -347,7 +347,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 }
               }
             },
-            LambdaWarmupEventsRule1Function2LambdaFunctionSchedulePermission: {
+            Function2LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Properties: {
                 FunctionName: {
                   'Fn::GetAtt': ['Function2LambdaFunction', 'Arn']
@@ -357,7 +357,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 }
               }
             },
-            LambdaWarmupEventsRule1Function3LambdaFunctionSchedulePermission: {
+            Function3LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Properties: {
                 FunctionName: {
                   'Fn::GetAtt': ['Function3LambdaFunction', 'Arn']
@@ -367,7 +367,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 }
               }
             },
-            LambdaWarmupEventsRule1Function4LambdaFunctionSchedulePermission: {
+            Function4LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Properties: {
                 FunctionName: {
                   'Fn::GetAtt': ['Function4LambdaFunction', 'Arn']
@@ -377,7 +377,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 }
               }
             },
-            LambdaWarmupEventsRule1Function5LambdaFunctionSchedulePermission: {
+            Function5LambdaFunctionScheduleLambdaWarmupEventsRule1Permission: {
               Properties: {
                 FunctionName: {
                   'Fn::GetAtt': ['Function5LambdaFunction', 'Arn']
@@ -387,7 +387,7 @@ describe('serverless-plugin-lambda-warmup', function() {
                 }
               }
             },
-            LambdaWarmupEventsRule2Function6LambdaFunctionSchedulePermission: {
+            Function6LambdaFunctionScheduleLambdaWarmupEventsRule2Permission: {
               Properties: {
                 FunctionName: {
                   'Fn::GetAtt': ['Function6LambdaFunction', 'Arn']
